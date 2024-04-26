@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuppon</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap" rel="stylesheet">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Jquery-->
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </script>
+    <!--JS-->
+    <script src="assets/js/script.js"></script>
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/e71540b536.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light nav-custom-px-5 bg-transparent fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-5" href="#">
+                    <img src="assets/img/viajes.svg" alt="Logo Viajes Chile" width="40px" height="40px">
+                    <span> Viajes Chile </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon mx-5"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end mx-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quienes">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container-fluid px-0">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col">
+                                    <img class="img-fluid" src="assets/img/carousel1.jpg" alt="Llamas en la cordillera">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <div class="row">
+                                <div class="col">
+                                    <img class="img-fluid" src="assets/img/carousel2.jpg" alt="Moais">
+                                </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="img-fluid" src="assets/img/carousel3.jpg" alt="pinguinos">
+                                    </div>
+                                </div>
+                            </div>
+                        <br>
+                        <br>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="d-none d-sm-block" id="quienes">
+        <div class="container-fluid">
+            <h3 class="text-center my-4 fw-light text-white">¿QUIÉNES SOMOS?</h3>
+            <hr class="mx-4">
+            <div class="row my-4 text-center mx-5">
+                <div class="col-4">
+                    <i class="fas fa-plane bg-info text-white d-flex justify-content-center fs-3"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto sed expedita voluptates aperiam, assumenda vero, non temporibus vitae ipsa, molestias molestiae quaerat illo! Aliquam temporibus nostrum beatae vitae dolor similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam rem eius quas quaerat molestiae dignissimos nulla laudantium atque? Maiores aliquid esse pariatur consequuntur labore laboriosam repellendus accusantium voluptas incidunt? Amet.</p>
+                </div>
+                <div class="col-4">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet autem, nisi a voluptatibus illo dolorum! Ut quam a cumque, itaque, blanditiis soluta quo consequatur porro alias, doloremque voluptatem sed incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores neque a laborum? Numquam, molestias? Non repudiandae sequi, ullam mollitia reiciendis beatae! Accusantium beatae blanditiis, mollitia quod itaque recusandae fuga sequi.</p>
+                    <i class="fas fa-mountain bg-info text-white d-flex justify-content-center fs-3"></i>
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-route bg-info text-white d-flex justify-content-center fs-3"></i>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolorum in accusantium mollitia eius maxime distinctio eligendi neque ab culpa repellendus facilis ducimus cum nemo libero, velit voluptate suscipit fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquid autem, quasi impedit, ut praesentium tempora cum et facilis nesciunt maiores voluptate sapiente commodi explicabo hic? Maxime soluta maiores id!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="destacados">
+        <div class="container-fluid my-3 py-3">
+            <div class="row d-flex justify-content-center mx-3">
+                <div>
+                    <h3 class="text-center text-white fw-light">
+                        DESTACADOS
+                    </h3>
+                </div>
+                <hr class="mx-5">
+                <div class="col-12 d-flex justify-content-evenly flex-wrap">
+                    <div class="card mx-3 my-3 bg-info" style="width: 18rem;">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem Ipsum</h5>
+                            <p>Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 my-3 bg-info" style="width: 18rem;">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem Ipsum</h5>
+                            <p>Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 my-3 bg-info" style="width: 18rem;">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem Ipsum</h5>
+                            <p>Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-3 my-3 bg-info" style="width: 18rem;">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem Ipsum</h5>
+                            <p>Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="formulario py-5" id="contacto">
+        <h3 class="text-center">CONTACTO</h3>
+        <hr>
+        <div class="container-fluid gx-5">
+            <form>
+                <div class="row">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="container-fluid py-2 bg-info d-flex justify-content-around">
+        <div>        
+            <h2>Viajes Chile</h2>
+        </div>
+        <div></div>
+        <div class="py-1">        
+            <a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com" target="_blank">            <i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com" target="_blank">            <i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html> 
