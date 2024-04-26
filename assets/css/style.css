@@ -46,9 +46,9 @@ footer {
     font-weight: 100;
     font-style: normal;
     color: white;
-    h2{
-        font-size: 16pt;
-    }
+}
+footer, h2{
+    font-size: 16pt;
 }
 .formulario {
     color: white;
